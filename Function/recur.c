@@ -10,8 +10,8 @@ int main(void)
 
 void up_and_down( int n )
 {
-	printf("现在是第%d级\tn的值是：%d\tn的地址是%p\n", n, n, &n); //第一个输出
+	printf("现在是函数递归调用前的第一个输出语句：第%d级\tn的值是：%d\tn的地址是%p\n", n, n, &n); //第一个输出
 	if ( n < 4 )
 		up_and_down( n + 1 );
-	printf("返回：现在是第%d级\tn的值是：%d\tn的地址是%p\n", n, n, &n); //第二个输出
+	printf("返回函数递归调用后的第二个输出语句：现在是第%d级\tn的值是：%d\tn的地址是%p\n", n, n, &n); //第二个输出
 }
