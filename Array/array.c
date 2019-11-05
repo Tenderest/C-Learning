@@ -1,3 +1,4 @@
+/* 一个一维数组的简单使用 */
 #include<stdio.h>
 int main( void )
 {
@@ -12,27 +13,3 @@ int main( void )
 
         return 0;
 }
-
-
-/*
-        if ( a )
-        {
-            printf("",<++>);
-        }
-        else if ( b )
-        {
-            printf("",<++>);
-        }
-        
-        if ( a )
-        {
-            printf("",<++>);
-        }
-        else
-        {
-                if ( b )
-                {
-                        printf("",<++>);
-                }
-        }
-*/
