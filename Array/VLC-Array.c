@@ -39,6 +39,8 @@ int main( void )
         return 0;
 }
 
+// VLC 数组函数的定义和使用
+// 因为函数声明时省略了名字，所以定义时需要加上
 int sum2d ( int rows, int cols, int ar[rows][cols] )
 {
         int r, c, total = 0;
