@@ -2,7 +2,8 @@
 #include<stdio.h>
 #define ROWS 2
 #define COLS 3
-int sum2d ( int , int , int ar[*][*] ); // 对二维数组进行累加
+int sum2d ( int , int , int ar[*][*] );
+// 对二维数组进行累加
 // 省略了名字，定义数组省略名字时需要用'*'号代替
 int main( void )
 {
@@ -40,6 +41,7 @@ int main( void )
 }
 
 // VLC 数组函数的定义和使用
+// 声明  int sum2d ( int , int , int ar[*][*] );
 // 因为函数声明时省略了名字，所以定义时需要加上
 int sum2d ( int rows, int cols, int ar[rows][cols] )
 {
