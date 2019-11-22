@@ -2,7 +2,8 @@
 2019年10月02日创建
 ```c
 #include<stdio.h>
-int main(void){
+int main(void)
+{
 	printf("Hello World!");
 	return 0;
 }
