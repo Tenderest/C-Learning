@@ -9,7 +9,7 @@ int main( void )
                 for ( j =0; j < 4; j++ )
                 {
                         printf("请输入第%d行第%d个数：", i + 1, j + 1);
-                        scanf("%d",&ar[ i ][ j ]);
+                        scanf("%d",&ar[i][j]);
                 }
         }
         for (i=0; i<3; i++ )
