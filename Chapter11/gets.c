@@ -1,4 +1,5 @@
 /* gets() 和 fgets() 使用的例子 */
+/* 建议使用fgets() */
 #include<stdio.h>
 #define MAX 81
 int main(void)
