@@ -1,3 +1,5 @@
+/* 使用命令行参数输入 */
+/* 打开一个文件并打印出内容和计数 */
 #include<stdio.h>
 #include<string.h>
 int main( int agrc, char * argv[] )
