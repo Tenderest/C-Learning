@@ -9,4 +9,6 @@ int main(void)
 }
 ```
 
-![Alt](/home/liyunfeng/Pictures/mp59663818_1455886785460_6.gif)
+![alt](https://github.com/Tenderest/C-Learning/raw/master/image.jpg)
+
+<img src = "https://github.com/Tenderest/C-Learning/row/master/image.jpg" width = "300" height = "300" alt = "image.jpg" align = center />
