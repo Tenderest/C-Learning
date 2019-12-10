@@ -9,6 +9,6 @@ int main(void)
 }
 ```
 
-![alt](https://github.com/Tenderest/C-Learning/raw/master/image.jpg)
-
+![image.jpg](https://i.loli.net/2019/12/10/xdLIkZeYwjvstVO.jpg)
+![mp.gif](https://i.loli.net/2019/12/10/xGR1XZaj98Kpmsl.gif)
 <img src = "https://github.com/Tenderest/C-Learning/row/master/image.jpg" width = "300" height = "300" alt = "image.jpg" align = center />
