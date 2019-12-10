@@ -9,4 +9,6 @@ int main(void)
 }
 ```
 
-![mp.gif](https://i.loli.net/2019/12/10/xGR1XZaj98Kpmsl.gif)
+[mp.gif](https://i.loli.net/2019/12/10/xGR1XZaj98Kpmsl.gif)
+
+<img src = https://i.loli.net/2019/12/10/xGR1XZaj98Kpmsl.gif heigth = "100" weigth = "100"/>
