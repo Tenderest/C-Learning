@@ -9,6 +9,6 @@ int main(void)
 }
 ```
 
-<img src = https://i.loli.net/2019/12/10/xGR1XZaj98Kpmsl.gif heigth = "400" width = "400" alt = "HTML格式设置的图片，使用的免费SMMS上传的" align = "center"/>
+<img src = https://i.loli.net/2019/12/10/xGR1XZaj98Kpmsl.gif heigth = "350" width = "350" alt = "HTML格式设置的图片，使用的免费SMMS上传的" align = "center"/>
 
 [图片地址(Markdown格式设置)](https://i.loli.net/2019/12/10/xGR1XZaj98Kpmsl.gif)
