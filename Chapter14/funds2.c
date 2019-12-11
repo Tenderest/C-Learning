@@ -9,6 +9,7 @@ struct funds {
         double savefund;
 };
 double sum ( const struct funds * ); // 参数是一个指针
+// sum函数使用一个指向fund结构的指针
 int main(void)
 {
         struct funds stan = {
