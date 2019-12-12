@@ -1,4 +1,4 @@
-/* 传递和返回结构 */
+/* 给函数传递一个结构和函数返回一个结构 */
 #include<stdio.h>
 #include<string.h>
 
