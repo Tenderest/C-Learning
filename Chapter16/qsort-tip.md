@@ -15,4 +15,5 @@ void qsort(void *base, size_t nmemb, size_t size, int (*compar) (const void *, c
     ```c
     int (*compar) (const void *, const void *);
     ```
-    这表示最后的*参数是个指向函数的**指针***，该函数返回`int`并接受两个参数，而每个参数均为指向`const void`类型的指针。*这两个指针指向需要比较的项目。*
+    这表示最后的*参数是个指向函数的**指针***，该函数返回`int`并接受两个参数，而每个参数均为指向`const void`类型的指针。*这两个指针指向需要比较的项目。*  
+   [`qsort()`代码示例](https://github.com/Tenderest/C-Learning/blob/master/Chapter16/qsort.c)
