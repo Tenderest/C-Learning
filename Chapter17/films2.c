@@ -54,10 +54,11 @@ int main(void)
         }
         /* 任务以完成，因此释放所分配的内存 */
         current = head;
-        while ( current != NULL )
+        while ( current != NULL ) // 释放逻辑错误
         {
+                head = current->next;
                 free(current);
-                current = current->next;
+                current = head;
         }
         printf("Bye!\n");
         return 0;
