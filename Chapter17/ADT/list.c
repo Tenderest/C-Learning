@@ -8,7 +8,7 @@ static void CopyToNode (Item item, Node * pnode);
 
 /* 接口函数 */
 /* 把列表设置为空列表 */
-void IntializeList (List * plist)
+void Zero (List * plist)
 {
         *plist = NULL;
 }
