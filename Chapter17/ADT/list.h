@@ -13,17 +13,18 @@ struct film {
 /* 一般类型定义 */
 typedef struct film Item;
 
-typedef struct node {
+struct node {
         Item item;
         struct node * next;
-} Node;
-
+};
+typedef struct node Node;
 typedef Node * List;
+
 /* 函数原型                           */
 /* 操作：初始化一个列表               */
 /* 操作前：plist指向一个列表          */
 /* 操作后：该列表被初始化为一个空列表 */
-void InitializeList (List * plist);
+void Zero (List * plist);
 
 /* 操作：确定列表是否为空列表                     */
 /* 操作前：plist指向一个已初始化的列表            */
@@ -33,7 +34,7 @@ bool ListIsEmpty (const List * plist);
 /* 操作：确定列表是否已满                         */
 /* 操作前：plist指向一个已初始化的列表            */
 /* 操作后：如果该列表已满则返回true;否则返回false */
-bool ListIsFull (const List * plist);
+bool ListIsFull (List const * plist);
 
 /* 操作：确定列表中项目的个数          */
 /* 操作前：plist指向一个已初始化的列表 */
