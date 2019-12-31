@@ -9,8 +9,13 @@ int main(void)
         List movies;
         Item temp;
         /* 初始化 */
-        InitializeList(&movies);
-        if ( ListIsFull(movies) )
+        Zero(&movies);
+        /* if ( movies == NULL ) */
+        /* { */
+        /*         printf("No data.\n"); */
+        /*         exit(1); */
+        /* } */
+        if ( ListIsFull(&movies) )
         {
                 fprintf(stderr, "No memory available!Bye!\n");
                 exit(1);
@@ -31,7 +36,7 @@ int main(void)
                         fprintf(stderr, "Problem allocating memory\n");
                         break;
                 }
-                if ( ListIsFull(movies) )
+                if ( ListIsFull(&movies) )
                 {
                         puts("The list is now full.");
                         break;
@@ -40,16 +45,16 @@ int main(void)
         }
         
         /* 显示 */
-        if ( ListIsEmpty(movies) )
+        if ( ListIsEmpty(&movies) )
         {
                 printf("No data entered.");
         }
         else
         {
                 printf("Here is the movie list: \n");
-                Traverse(movies, showmovies);
+                Traverse(&movies, showmovies);
         }
-        printf("You entered %d movies.\n", ListItemCount(movies));
+        printf("You entered %d movies.\n", ListItemCount(&movies));
 
         /* 清除 */
         EmptyTheList(&movies);
