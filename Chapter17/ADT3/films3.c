@@ -1,19 +1,22 @@
+/* 使用ADT风格的链表 */
+/* 和list.c一起编译 */
 #include <stdio.h>
-#include <stdlib.h>
-#include "list.h"
+#include <stdlib.h> // 为exit()提供原型
+#include "list.h"   // 定义List，Item
 void showmovies (Item item);
-// s_gets
 
 int main(void)
 {
     List  movies;
     Item temp;
+    /* 初始化 */
     InitializeList(&movies);
     if (ListIsFull(&movies))
     {
         fprintf(stderr, "No memory available! Bye!\n");
         exit(1);
     }
+    /* 收集并存储 */
     puts("Enter first movie title: ");
     while (gets(temp.title) != NULL && temp.title[0] != '\0')
     {
