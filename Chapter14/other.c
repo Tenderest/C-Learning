@@ -7,17 +7,17 @@
 #include<stdio.h>
 struct names {
         char L[3];
-        char Ch[5];
+        char Y[5];
 };
 int main(void)
 {
         struct names first = {
                 "Li",
-                "Chen"
+                "None"
         };
         struct names last;
         struct names last = first; // 把一个结构赋值给另一个结构
-        printf("%s %s\n", first.L, first.Ch );
-        printf("%s %s\n", last.L, last.Ch);
+        printf("%s %s\n", first.L, first.Y );
+        printf("%s %s\n", last.L, last.Y);
         return 0;
 }

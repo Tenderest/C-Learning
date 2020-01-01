@@ -15,7 +15,7 @@ int main(void)
     struct book another = {
         
     };
-/*     struct book another.title = "Chen kaiyue";
+/*     struct book another.title = "";
     struct book another.author = "Yes";
     struct book another.a = 2.1; */
 /*     printf("输入title：");
