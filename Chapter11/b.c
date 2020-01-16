@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main( void )
 {
-        char heart[ ] = "Chen kai yue";
+        char heart[ ] = "None";
         char *head = "Liyunfeng";
 
         printf("heart[] = %s",heart);
